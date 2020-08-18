@@ -1,11 +1,8 @@
-# URL-Shortener
+# URL Shortener
 
 URL Shortener is a webapp built using Django framework that will allow you to shorten any URL instantly. It also has a prebuild URL validation checking and liveness detection. You'll also have full detailed stats, analytics, plugins, and more soon. It's free and open-source.
 
 # Quick-Start
-#### Live Site For Quick URL Shotening
-
-Coming soon....
 
 #### On Local Machine
 
