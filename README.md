@@ -25,6 +25,16 @@ URL Shortener is a webapp built using Django framework that will allow you to sh
 ```
    python manage.py runserver
 ```
+# Upcoming 
+
++ [ ] Frontend
+    - [x] Basic Interface
+    - [ ] UI Improvements
++ [x] Login/Register System
++ [ ] Features
+    - [x] URL listing for each user
+    - [ ] URL Detailed Infographics 
++ [x] Live Website
 
 # License
 
