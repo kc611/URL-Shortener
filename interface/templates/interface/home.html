@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+
+</head>
+<body>
+ 
+    {% include 'interface/navbar_back.html' %}
+	<div class="container-fluid">
+	{% include 'interface/logged_user_form.html' %}
+    </div>
+
+    <div class="row">
+        <div class="text-center col-sm-12">
+            <h3>Your URLs</h3>
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Original URL</th>
+                    <th scope="col">Shortened URL</th>
+                    <th scope="col">Active</th>
+                  </tr>
+                </thead>
+                
+                <tbody>
+                    {% for url in user_urls %}
+                        <tr>
+                            <th scope="row">#</th>
+                            <td>{{url.url}}</td>
+                            <td>http://localhost/{{url.shortened}}</td>
+                            <td>Active</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+              </table>
+              
+            
+        </div>
+    </div>
+    
+</body>
+</html>

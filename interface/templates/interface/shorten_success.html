@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="text-center col-sm-12">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h4>Original URL</h4>
+        <p>{{ object.url }}</p>
+        <h4>Shortened URL</h4>
+        <a>http://localhost:8000/{{ object.shortened }} </a>
+        <br>
+        <br>
+        <a href="{% url 'base' %}">
+            <button class="btn btn-primary">Shorten Another URL</button>
+        </a>
+        
+    </div>
+</div>
+
+
