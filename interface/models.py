@@ -1,5 +1,6 @@
 from django.db import models
 import random 
+import numpy as np
 
 def shorten_code_generator(size = 6):
     chars = 'abcdefghijklmopqrstuvvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ'
