@@ -1,5 +1,5 @@
-# URL Shortener ( [View Live Website](https://quick-url-shortener.herokuapp.com/) )
-URL Shortener is a webapp built using Django framework that will allow you to shorten any URL instantly. It also has a prebuild URL validation checking and liveness detection. You'll also have full detailed stats, analytics, plugins, and more soon. It's free and open-source.
+# URL Shortener 
+URL Shortener is a small and simple webapp built using Django framework that will allow you to shorten any URL instantly. It also has a prebuild URL validation checking and liveness detection. You'll also have full detailed stats, analytics, plugins, and more soon. It's free and open-source.
 
 # Quick-Start
 
